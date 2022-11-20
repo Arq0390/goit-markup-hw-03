@@ -250,7 +250,10 @@ header nav .nav-menu {
     color: var(--brand-color6);
 }
 .buttons:hover,
-.buttons:active,
+.buttons:active {
+    background-color: var(--brand-color7); 
+    color: var(--brand-color6);
+}
 /* ---------------Portfolio Projects------------------- */
 .projects {
     width: 1170px;

@@ -121,12 +121,12 @@ header nav .nav-menu {
     text-align: center;
 }
 .banner-title {
+    color: var(--brand-color6);
     font-weight: 900;
     font-size: 44px;
-    line-height: 3.75em;
-    color: var(--brand-color6);
     text-align: center;
     letter-spacing: 0.06em;
+    padding: 0 20%;
 }
 .banner-button {
     background-color: var(--brand-color7);

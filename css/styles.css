@@ -237,8 +237,6 @@ header nav .nav-menu {
     color: var(--brand-color2);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.6em;
-    letter-spacing: 0.03em;
     padding: 10px 30px;
     cursor: pointer;
     border: none;
@@ -252,7 +250,8 @@ header nav .nav-menu {
     color: var(--brand-color6);
 }
 .buttons:hover,
-.buttons:active {
+.buttons:active, 
+.buttons:focus {
     background-color: var(--brand-color7); 
     color: var(--brand-color6);
 }
